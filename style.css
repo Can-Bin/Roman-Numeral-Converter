@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Untitled.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#container{
+    margin-top: 2rem;
+}
+
+#label{
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+}
+
+#input{
+    border-radius: 20px;
+    width: 30%;
+    color: white;
+    outline: none;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    transition: .4s all ease-in-out;  
+    background-color: rgba(95, 158, 160, 0.3);
+}
+
+#input:focus{
+    outline: 5px solid cadetblue;
+    outline-offset: 5px;
+}
+
+#result{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    background-color: rgba(95, 158, 160, 0.5);
+}
+
+
